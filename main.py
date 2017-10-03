@@ -1,14 +1,14 @@
 import json
-from os import path
 import apiclient
-
-DATA_PATH = "/Users/aliya/Documents/Spella - Data science test/data/"
 
 from google.cloud import language
 from google.cloud.language import enums
 from google.cloud.language import types
-# [END sentiment_tutorial_import]
+from os import path
 from misc import Extract_ID
+
+
+DATA_PATH = "/Users/aliya/Documents/Spella - Data science test/data/"
 
 # [START def_analyze]
 def analyze(text):
